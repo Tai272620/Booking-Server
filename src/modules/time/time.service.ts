@@ -50,6 +50,7 @@ export class TimeService {
         message: "Update ok!"
       }
     } catch (err) {
+      console.log("err", err);
       return {
         status: false,
         data: null,
